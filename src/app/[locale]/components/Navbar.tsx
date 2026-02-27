@@ -2,6 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Locale } from "@/i18n/locales";
 import { getTranslations } from "next-intl/server";
 import Link from "next/link";
+import MobileMenu from "./MobileMenu";
 
 export default async function NavBar({
   locale,
@@ -17,7 +18,7 @@ export default async function NavBar({
     { href: `/${locale}/rules`, label: t("rules") },
     { href: `/${locale}/gallery`, label: t("gallery") },
     { href: `/${locale}/behind-the-scenes`, label: t("behind") },
-  ] as const;
+  ];
 
   const languages = [
     { code: "en", label: "EN" },
@@ -26,15 +27,27 @@ export default async function NavBar({
   ] as const;
 
   return (
-    <header className="border-b">
+    <header className="bg-primary text-white border-b border-white/20 sticky top-0 z-50 shadow-lg">
       <nav className="mx-auto flex max-w-5xl items-center justify-between p-4">
-        <Link href={`/${locale}`} className="text-lg font-semibold">
+        <div className="md:hidden">
+          <MobileMenu title="2S" items={nav}></MobileMenu>
+        </div>
+        <Link
+          href={`/${locale}`}
+          className="text-2xl font-black tracking-tighter"
+        >
           2S
         </Link>
         {/* Main navigation */}
-        <div className="hidden gap-2 items-center md:flex">
+
+        <div className="hidden gap-4 items-center md:flex">
           {nav.map((item) => (
-            <Button key={item.href} asChild variant={"ghost"}>
+            <Button
+              key={item.href}
+              asChild
+              variant={"ghost"}
+              className="font-bold shadow-orange-500"
+            >
               <Link href={item.href}>{item.label}</Link>
             </Button>
           ))}
