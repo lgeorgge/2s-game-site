@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Home",
+    "rules": "Rules",
+    "gallery": "Gallery",
+    "behind": "Behind the Scenes"
+  },
+  "language": {
+    "en": "EN",
+    "ar": "AR",
+    "es": "ES"
+  }
+}

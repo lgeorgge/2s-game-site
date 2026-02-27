@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "@/app/globals.css";
 import { notFound } from "next/navigation";
 import { getDir, isLocale } from "@/i18n/locales";
-import NavBar from "./components/Navbar";
+import NavBar from "@/app/[locale]/components/Navbar";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -25,9 +25,9 @@ export default async function LocaleLayout({
   params,
 }: Readonly<{
   children: React.ReactNode;
-  params: Promise<{ locale: string }>;
+  params: Promise<{ locale: string; slug?: string[] }>;
 }>) {
-  const { locale } = await params;
+  const { locale, slug } = await params;
   if (!isLocale(locale)) {
     notFound();
   }
@@ -38,7 +38,7 @@ export default async function LocaleLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <NavBar locale={locale} />
+        <NavBar locale={locale} slug={slug} />
         {children}
       </body>
     </html>

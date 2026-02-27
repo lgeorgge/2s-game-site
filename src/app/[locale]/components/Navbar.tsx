@@ -1,13 +1,22 @@
 import { Button } from "@/components/ui/button";
 import { Locale } from "@/i18n/locales";
+import { getTranslations } from "next-intl/server";
 import Link from "next/link";
 
-export default function NavBar({ locale }: { locale: Locale }) {
+export default async function NavBar({
+  locale,
+  slug,
+}: {
+  locale: Locale;
+  slug?: string[];
+}) {
+  const t = await getTranslations({ locale, namespace: "nav" });
+  const path = slug?.join("/") || "";
   const nav = [
-    { href: `/${locale}`, label: "Home" },
-    { href: `/${locale}/rules`, label: "Rules" },
-    { href: `/${locale}/gallery`, label: "Gallery" },
-    { href: `/${locale}/behind-the-scenes`, label: "Behind the Scenes" },
+    { href: `/${locale}`, label: t("home") },
+    { href: `/${locale}/rules`, label: t("rules") },
+    { href: `/${locale}/gallery`, label: t("gallery") },
+    { href: `/${locale}/behind-the-scenes`, label: t("behind") },
   ] as const;
 
   const languages = [
@@ -15,6 +24,7 @@ export default function NavBar({ locale }: { locale: Locale }) {
     { code: "ar", label: "AR" },
     { code: "es", label: "ES" },
   ] as const;
+
   return (
     <header className="border-b">
       <nav className="mx-auto flex max-w-5xl items-center justify-between p-4">
@@ -39,7 +49,7 @@ export default function NavBar({ locale }: { locale: Locale }) {
               asChild
               variant={lang.code === locale ? "default" : "outline"}
             >
-              <Link href={`/${lang.code}`}>{lang.label}</Link>
+              <Link href={`/${lang.code}/${path}`}>{lang.label}</Link>
             </Button>
           ))}
         </div>

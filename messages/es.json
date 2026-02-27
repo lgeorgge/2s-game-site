@@ -1,0 +1,13 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "rules": "Reglas",
+    "gallery": "Galería",
+    "behind": "Detrás de cámaras"
+  },
+  "language": {
+    "en": "EN",
+    "ar": "AR",
+    "es": "ES"
+  }
+}
