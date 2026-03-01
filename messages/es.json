@@ -1,4 +1,33 @@
 {
+  "home": {
+    "objectivesTitle": "Objetivos del Juego",
+    "objectives": [
+      "Desarrollar habilidades completas en el idioma (gramática, ortografía, escritura, pronunciación y vocabulario).",
+      "Ampliar el conocimiento general en deportes, historia, civilización y cultura.",
+      "Fomentar el pensamiento rápido y la toma de decisiones inteligentes.",
+      "Promover la competencia sana y el aprendizaje basado en desafíos.",
+      "Ayudar a los jugadores a descubrir sus errores y mejorar su verdadero nivel en el idioma.",
+      "Fortalecer la confianza a través de la práctica interactiva.",
+      "Apoyar la inclusión e integrar a los estudiantes con discapacidad visual en la experiencia de aprendizaje.",
+      "Combinar educación con diversión y entretenimiento.",
+      "Integrar la tecnología en el aprendizaje mediante recursos educativos a través de códigos QR.",
+      "Promover el aprendizaje sostenible más allá de la experiencia del juego."
+    ]
+  },
+  "behind": {
+    "title": "Detrás de Cámaras",
+    "body": [
+      "Somos estudiantes del programa de traducción especializada en la lengua española, departamento de lenguas y literaturas hispánicas, Universidad de El Cairo, y nos graduamos en 2026.",
+      "2S (Si Sabes) es nuestro proyecto de graduación — un juego que pone a prueba la ilusión de perfección en el aprendizaje de idiomas.",
+      "El nombre tiene una idea creativa: cuando repites \"2S\" varias veces, suena como el número doce. El número doce simboliza la perfección, y muchas veces creemos que nuestro nivel en un idioma ya es completo y sólido.",
+      "¿Pero realmente lo es?",
+      "Ahí es donde entra 2S. Nuestro juego te invita a ponerte a prueba en español, inglés y árabe de una manera divertida e interactiva. No solo mide lo que sabes, sino que revela tu verdadero nivel mientras te ayuda a crecer.",
+      "Nuestro objetivo es enseñar nuevas ideas lingüísticas, aspectos culturales y conceptos importantes del idioma de una forma sencilla, atractiva y fácil de recordar.",
+      "Creemos que aprender no debe ser aburrido. Debes retarte, sorprenderte y quedarte en tu mente.",
+      "2S está diseñado para todos, y estamos orgullosos de apoyar la inclusión mediante la integración de herramientas de accesibilidad para personas con discapacidad visual, al mismo tiempo que promovemos la lengua, la cultura y el intercambio de conocimientos.",
+      "Porque saber… es solo el comienzo."
+    ]
+  },
   "nav": {
     "home": "Inicio",
     "rules": "Reglas",
@@ -9,5 +38,24 @@
     "en": "EN",
     "ar": "AR",
     "es": "ES"
+  },
+  "rules": {
+    "title": "Reglas del Juego",
+    "howToPlay": {
+      "title": "Modo de Juego",
+      "p1": "El jugador toma una carta del grupo de preguntas (1–50). En ella encontrará dos preguntas en los idiomas disponibles en la carta, y cada jugador debe responder solo una pregunta en su turno.",
+      "p2": "Elige la pregunta cuya respuesta conozcas o la que te resulte más fácil y respóndela para obtener su puntuación.",
+      "p3": "Si la respuesta es correcta → toma una carta del grupo Ojo de Horus (cartas 51–75).",
+      "p4": "Si la respuesta es incorrecta → toma una carta del grupo La Maldición (cartas 76–100)."
+    },
+    "supportTools": {
+      "title": "Herramientas de Apoyo",
+      "p1": "Debajo de cada carta hay un código QR para escuchar la pregunta en formato de audio, facilitando el juego para personas con discapacidad visual.",
+      "p2": "Hay otro código QR junto a cada pregunta que te dirige a un sitio web con información general que te ayudará a ampliar tus conocimientos sobre el tema de la pregunta, pero no necesariamente contendrá la respuesta de la pregunta elegida."
+    },
+    "winner": {
+      "title": "Ganador",
+      "p1": "El ganador es el jugador que acumule el mayor número de puntos cuando se terminen las cartas de preguntas."
+    }
   }
 }

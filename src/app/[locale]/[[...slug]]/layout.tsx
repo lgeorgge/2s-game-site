@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "2s-game-site",
   description: "The official website for 2s-game",
+  icons: {
+    icon: "/logo.jpeg",
+  },
 };
 
 export default async function LocaleLayout({

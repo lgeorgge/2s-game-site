@@ -16,7 +16,7 @@ export default async function NavBar({
   const nav = [
     { href: `/${locale}`, label: t("home") },
     { href: `/${locale}/rules`, label: t("rules") },
-    { href: `/${locale}/gallery`, label: t("gallery") },
+    // { href: `/${locale}/gallery`, label: t("gallery") },
     { href: `/${locale}/behind-the-scenes`, label: t("behind") },
   ];
 

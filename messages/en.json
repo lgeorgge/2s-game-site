@@ -1,4 +1,33 @@
 {
+  "home": {
+    "objectivesTitle": "Game Objectives",
+    "objectives": [
+      "Develop comprehensive language skills (grammar, spelling, writing, pronunciation, and vocabulary).",
+      "Expand general knowledge in sports, history, civilization, and culture.",
+      "Promote quick thinking and smart decision-making.",
+      "Encourage healthy competition and challenge-based learning.",
+      "Help players discover their mistakes and improve their true language level.",
+      "Build confidence through interactive practice.",
+      "Support inclusion and integrate visually impaired students into the learning experience.",
+      "Combine education with fun and entertainment.",
+      "Integrate technology into learning through educational resources via QR codes.",
+      "Promote sustainable learning beyond the game experience."
+    ]
+  },
+  "behind": {
+    "title": "Behind the Scenes",
+    "body": [
+      "We are students of the specialized translation program in the Spanish language, Department of Hispanic Languages and Literatures, Cairo University, and we graduate in 2026.",
+      "2S (Si Sabes) is our graduation project — a game that challenges the illusion of perfection in language learning.",
+      "The name carries a creative idea: when you repeat '2S' several times, it sounds like the number twelve. The number twelve symbolizes perfection, and we often believe our level in a language is already complete and solid.",
+      "But is it really?",
+      "That's where 2S comes in. Our game invites you to test yourself in Spanish, English, and Arabic in a fun and interactive way. It doesn't just measure what you know — it reveals your true level while helping you grow.",
+      "Our goal is to teach new linguistic ideas, cultural aspects, and important language concepts in a simple, engaging, and easy-to-remember way.",
+      "We believe learning should not be boring. It should challenge you, surprise you, and stay in your mind.",
+      "2S is designed for everyone, and we are proud to support inclusion by integrating accessibility tools for people with visual impairments, while promoting language, culture, and the exchange of knowledge.",
+      "Because knowing… is only the beginning."
+    ]
+  },
   "nav": {
     "home": "Home",
     "rules": "Rules",
@@ -9,5 +38,24 @@
     "en": "EN",
     "ar": "AR",
     "es": "ES"
+  },
+  "rules": {
+    "title": "Game Rules",
+    "howToPlay": {
+      "title": "How to Play",
+      "p1": "The player draws a card from the question deck (1–50). Each card contains two questions in the available languages, and each player must answer only one question during their turn.",
+      "p2": "Choose the question you know the answer to or the one that seems easier to you, and answer it to earn its points.",
+      "p3": "If the answer is correct → draw a card from the Eye of Horus deck (cards 51–75).",
+      "p4": "If the answer is incorrect → draw a card from the Curse deck (cards 76–100)."
+    },
+    "supportTools": {
+      "title": "Support Tools",
+      "p1": "Below each card, there is a QR code to listen to the question in audio format, making the game more accessible for visually impaired players.",
+      "p2": "There is another QR code next to each question that directs you to a website providing general information to help you expand your knowledge about the topic of the question, but it does not necessarily contain the answer to the chosen question."
+    },
+    "winner": {
+      "title": "Winner",
+      "p1": "The winner is the player who collects the highest number of points when all the question cards are finished."
+    }
   }
 }
