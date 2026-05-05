@@ -57,5 +57,9 @@
       "title": "Winner",
       "p1": "You are the winner if you collect the highest number of points when the question cards run out."
     }
+  },
+  "follow": {
+    "title": "Follow us",
+    "subtitle": "Follow us on social media"
   }
 }

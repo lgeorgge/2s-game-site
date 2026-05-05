@@ -57,5 +57,9 @@
       "title": "Ganador",
       "p1": "Serás el ganador si consigues el mayor número de puntos cuando se terminen las cartas de preguntas."
     }
+  },
+  "follow": {
+    "title": "Síguenos",
+    "subtitle": "Síguenos en redes sociales"
   }
 }

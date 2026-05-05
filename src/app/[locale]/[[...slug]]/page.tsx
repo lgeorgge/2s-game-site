@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { RulesVideo } from "@/app/[locale]/components/RulesVideo";
 import { WhoAreWeVideo } from "@/app/[locale]/components/WhoAreWeVideo";
+import { FollowUs } from "@/app/[locale]/components/FollowUs";
 
 const OBJECTIVE_EMOJIS = [
   "1️⃣",
@@ -146,6 +147,8 @@ export default async function Page({
               {locale === "ar" ? "العودة" : locale === "es" ? "Volver" : "Back"}
             </Link>
           </div>
+
+          <FollowUs locale={locale} />
         </main>
       </div>
     );
@@ -204,6 +207,8 @@ export default async function Page({
               {locale === "ar" ? "العودة" : locale === "es" ? "Volver" : "Back"}
             </Link>
           </div>
+
+          <FollowUs locale={locale} />
         </main>
       </div>
     );
@@ -267,6 +272,10 @@ export default async function Page({
             </li>
           ))}
         </ol>
+      </section>
+
+      <section className="flex w-full max-w-4xl flex-col items-center mt-8">
+        <FollowUs locale={locale} />
       </section>
     </div>
   );
