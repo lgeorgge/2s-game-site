@@ -43,19 +43,19 @@
     "title": "Reglas del Juego",
     "howToPlay": {
       "title": "Modo de Juego",
-      "p1": "El jugador toma una carta del grupo de preguntas (1–50). En ella encontrará dos preguntas en los idiomas disponibles en la carta, y cada jugador debe responder solo una pregunta en su turno.",
+      "p1": "Toma una carta del grupo de preguntas (1–50). Encontrarás dos preguntas en los idiomas disponibles en la carta, y debes responder solo una pregunta en tu turno.",
       "p2": "Elige la pregunta cuya respuesta conozcas o la que te resulte más fácil y respóndela para obtener su puntuación.",
-      "p3": "Si la respuesta es correcta → toma una carta del grupo Ojo de Horus (cartas 51–75).",
-      "p4": "Si la respuesta es incorrecta → toma una carta del grupo La Maldición (cartas 76–100)."
+      "p3": "Si tu respuesta es correcta → toma una carta del grupo Ojo de Horus (cartas 51–75).",
+      "p4": "Si tu respuesta es incorrecta → toma una carta del grupo La Maldición (cartas 76–100)."
     },
     "supportTools": {
       "title": "Herramientas de Apoyo",
-      "p1": "Debajo de cada carta hay un código QR para escuchar la pregunta en formato de audio, facilitando el juego para personas con discapacidad visual.",
-      "p2": "Hay otro código QR junto a cada pregunta que te dirige a un sitio web con información general que te ayudará a ampliar tus conocimientos sobre el tema de la pregunta, pero no necesariamente contendrá la respuesta de la pregunta elegida."
+      "p1": "en la parte inferior de la carta hay un código QR que puedes escanear para escuchar la pregunta en audio, lo que facilita el juego para personas con discapacidad visual.",
+      "p2": "También hay otro código QR junto a cada pregunta que te dirige a un sitio web con información general para ampliar tus conocimientos sobre el tema, pero no necesariamente contendrá la respuesta de la pregunta que elegiste."
     },
     "winner": {
       "title": "Ganador",
-      "p1": "El ganador es el jugador que acumule el mayor número de puntos cuando se terminen las cartas de preguntas."
+      "p1": "Serás el ganador si consigues el mayor número de puntos cuando se terminen las cartas de preguntas."
     }
   }
 }

@@ -2,6 +2,8 @@ import { getTranslations } from "next-intl/server";
 import { Locale } from "@/i18n/locales";
 import Image from "next/image";
 import Link from "next/link";
+import { RulesVideo } from "@/app/[locale]/components/RulesVideo";
+import { WhoAreWeVideo } from "@/app/[locale]/components/WhoAreWeVideo";
 
 const OBJECTIVE_EMOJIS = [
   "1️⃣",
@@ -131,6 +133,8 @@ export default async function Page({
                 </p>
               </div>
             </section>
+
+            <RulesVideo locale={locale} />
           </div>
 
           <div className="mt-12">
@@ -188,6 +192,8 @@ export default async function Page({
               );
             })}
           </div>
+
+          <WhoAreWeVideo />
 
           <div className="mt-12">
             <Link
