@@ -196,7 +196,7 @@ export default async function Page({
             })}
           </div>
 
-          <WhoAreWeVideo />
+          {/* <WhoAreWeVideo /> */}
 
           <div className="mt-12">
             <Link
